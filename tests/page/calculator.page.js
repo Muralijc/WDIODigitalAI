@@ -9,7 +9,8 @@ class CalculatorPage {
     }
 
     openApplication(appName) {
-        browser.execute('mobile:application:open', {'name': appName});
+        browser.execute('seetest:client.launch(\'com.sec.android.app.popupcalculator/.Calculator\',"")');
+
     }
 
     add(num1, num2) {

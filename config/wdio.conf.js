@@ -22,7 +22,7 @@ exports.config = {
     //
     hostname: require('./perfectoConfig.json').hostName,
     port: require('./perfectoConfig.json').port,
-    path: '/nexperience/perfectomobile/wd/hub',
+    path: '/wd/hub',
     protocol: require('./perfectoConfig.json').protocol,
     //
     // =================
@@ -79,9 +79,9 @@ exports.config = {
         {
             maxInstances: 1,
             platformName: require('./perfectoConfig.json').platformName,
-            platformVersion: require('./perfectoConfig.json').platformVersion,
-            deviceName: require('./perfectoConfig.json').deviceName,
-            securityToken: require('./perfectoConfig.json').securityToken,
+            // platformVersion: require('./perfectoConfig.json').platformVersion,
+            udid: require('./perfectoConfig.json').deviceName,
+            accessKey: require('./perfectoConfig.json').securityToken,
             'cjson:metadata': {
                 platform: {
                     name: require('./perfectoConfig.json').platformName,
@@ -102,7 +102,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'debug',
     //
     // Set specific log levels per logger
     // loggers:

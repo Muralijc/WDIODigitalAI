@@ -1,9 +1,10 @@
 {
-  "hostName": "",
-  "port": 80,
-  "protocol": "",
-  "platformName": "",
-  "platformVersion": "",
-  "deviceName": "",
-  "securityToken": ""
+  "hostName": "uscloud.experitest.com",
+  "port": 443,
+  "protocol": "https",
+  "platformName": "Android",
+  "platformVersion": "9.0",
+  "securityToken": "eyJhbGciOiJIUzI1NiJ9.eyJ4cC51IjozNzgyNjU5LCJ4cC5wIjozNzQ3MjE4LCJ4cC5tIjoxNjU3MTgwNjI5ODM0LCJleHAiOjE5NzI1NDA2MzEsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.BMkNZ1BAFKwofWTJzb7TmaoR3ss3Qsk9H6bKu_l9g2s",
+  "deviceName": "R58M43FRFCL"
+
 }
